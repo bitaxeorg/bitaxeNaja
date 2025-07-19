@@ -5,9 +5,9 @@
 	(uuid "4500fc77-0964-4ee4-8f0e-70e321725017")
 	(paper "A4")
 	(title_block
-		(title "bitaxeGamma Turbo")
-		(date "2025-05-12")
-		(rev "800xxx")
+		(title "bitaxeNaja")
+		(date "2025-07-17")
+		(rev "1200x")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
