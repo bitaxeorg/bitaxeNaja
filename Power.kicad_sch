@@ -2141,12 +2141,6 @@
 		(uuid "0fac1a19-cb10-4b82-9d93-61f4dc13108a")
 	)
 	(junction
-		(at 361.95 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "121aa403-3c14-4132-9897-dd235b430f18")
-	)
-	(junction
 		(at 271.78 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2313,12 +2307,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a52ebf6-a732-458e-a7a5-c0a2a9319250")
-	)
-	(junction
-		(at 125.73 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "518b8f88-06b6-4f6f-ac74-f9b5a8da6bc9")
 	)
 	(junction
 		(at 351.79 77.47)
@@ -3314,16 +3302,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 77.47) (xy 378.46 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e6ebfd-ace6-412a-bf50-d098a5a79338")
-	)
-	(wire
-		(pts
 			(xy 241.3 217.17) (xy 236.22 217.17)
 		)
 		(stroke
@@ -3561,16 +3539,6 @@
 			(type default)
 		)
 		(uuid "3bd5c19e-3f0e-489a-a53f-ce5ac1352e18")
-	)
-	(wire
-		(pts
-			(xy 125.73 247.65) (xy 143.51 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c0fdc95-92bc-4322-bfdf-8ae618927966")
 	)
 	(wire
 		(pts
@@ -6273,7 +6241,7 @@
 		(uuid "1e226b33-e6c2-4726-9028-de5ce0e28368")
 	)
 	(label "GND"
-		(at 135.89 247.65 0)
+		(at 119.38 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6733,7 +6701,7 @@
 		(uuid "cdf278d5-04f9-414e-afe9-59b1858a2745")
 	)
 	(label "GND"
-		(at 374.65 77.47 180)
+		(at 358.14 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7153,8 +7121,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75k"
-			(at 179.07 70.866 0)
+		(property "Value" "6.04k"
+			(at 181.61 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +7139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -7189,7 +7157,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-0775KL"
+		(property "PARTNO" ""
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -7198,7 +7166,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-75KLRCT-ND"
+		(property "DK" ""
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -7423,7 +7391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "14.7k"
+		(property "Value" "31.6k"
 			(at 188.976 97.028 90)
 			(effects
 				(font
@@ -7441,7 +7409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 189.23 99.06 0)
 			(effects
 				(font
@@ -7459,7 +7427,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "AC0402FR-0714K7L"
+		(property "PARTNO" ""
 			(at 189.23 99.06 90)
 			(effects
 				(font
@@ -7468,7 +7436,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "YAG5262CT-ND"
+		(property "DK" ""
 			(at 189.23 99.06 90)
 			(effects
 				(font
@@ -7882,7 +7850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "14.7k"
+		(property "Value" "46.4k"
 			(at 192.278 117.856 0)
 			(effects
 				(font
@@ -7900,7 +7868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 199.39 116.84 0)
 			(effects
 				(font
@@ -7918,7 +7886,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "AC0402FR-0714K7L"
+		(property "PARTNO" ""
 			(at 199.39 116.84 90)
 			(effects
 				(font
@@ -7927,7 +7895,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "YAG5262CT-ND"
+		(property "DK" ""
 			(at 199.39 116.84 90)
 			(effects
 				(font
@@ -8235,7 +8203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 119.38 111.76 0)
 			(effects
 				(font
@@ -9422,7 +9390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 119.38 115.57 0)
 			(effects
 				(font
@@ -9742,73 +9710,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 143.51 247.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6668ba90-7794-4204-a22b-90c93005314b")
-		(property "Reference" "TP28"
-			(at 148.59 246.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 248.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 143.51 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 143.51 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e04e0568-e2f4-4ff8-83c7-0c5a511ff841")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -10285,7 +10186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "649"
 			(at 179.07 84.836 0)
 			(effects
 				(font
@@ -10303,7 +10204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -10321,7 +10222,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402JR-0710KL"
+		(property "PARTNO" ""
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -10330,7 +10231,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-10KJRCT-ND"
+		(property "DK" ""
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -10440,7 +10341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56.2k"
+		(property "Value" "31.6k"
 			(at 215.9 117.856 0)
 			(effects
 				(font
@@ -10458,7 +10359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 217.17 116.84 0)
 			(effects
 				(font
@@ -10476,7 +10377,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-0756K2L"
+		(property "PARTNO" ""
 			(at 217.17 116.84 0)
 			(effects
 				(font
@@ -10485,7 +10386,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "YAG3187CT-ND"
+		(property "DK" ""
 			(at 217.17 116.84 0)
 			(effects
 				(font
@@ -10622,7 +10523,7 @@
 				)
 			)
 		)
-		(property "Value" "300nH"
+		(property "Value" "230nH"
 			(at 297.18 52.07 90)
 			(effects
 				(font
@@ -10630,7 +10531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:SLC1175-271MEC_COC"
+		(property "Footprint" "bitaxe:FP1107R1"
 			(at 297.18 54.61 0)
 			(effects
 				(font
@@ -10639,7 +10540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://products.sumida.com/products/pdf/104CDMCCDS.pdf"
+		(property "Datasheet" ""
 			(at 297.18 54.61 0)
 			(effects
 				(font
@@ -10657,7 +10558,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "SLC1175-271MEC"
+		(property "PARTNO" "FP1107R1-R23-R"
 			(at 297.18 54.61 90)
 			(effects
 				(font
@@ -10666,7 +10567,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "283-FP1107R1-R23-RCT-ND"
 			(at 297.18 54.61 0)
 			(effects
 				(font
@@ -12135,73 +12036,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 378.46 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b51e2577-0aa4-4910-a0bd-471db9d5a60d")
-		(property "Reference" "TP17"
-			(at 383.54 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 383.54 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 378.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 378.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 378.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f01479f2-c584-4c9b-887f-f61707d6d0bf")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 119.38 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12227,7 +12061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 119.38 107.95 0)
 			(effects
 				(font
@@ -13176,7 +13010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -13328,7 +13162,7 @@
 				)
 			)
 		)
-		(property "Value" "300nH"
+		(property "Value" "230nH"
 			(at 298.45 166.37 90)
 			(effects
 				(font
@@ -13336,7 +13170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:SLC1175-271MEC_COC"
+		(property "Footprint" "bitaxe:FP1107R1"
 			(at 298.45 168.91 0)
 			(effects
 				(font
@@ -13363,7 +13197,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "SLC1175-271MEC"
+		(property "PARTNO" "FP1107R1-R23-R"
 			(at 298.45 168.91 90)
 			(effects
 				(font
@@ -13372,12 +13206,13 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "283-FP1107R1-R23-RCT-ND"
 			(at 298.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

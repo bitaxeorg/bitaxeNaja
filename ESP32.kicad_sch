@@ -4961,7 +4961,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "IO0"
 			(at 150.495 158.7501 90)
 			(effects
 				(font
@@ -5806,7 +5806,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 150.495 156.2101 90)
 			(effects
 				(font
@@ -5882,7 +5882,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "EN"
 			(at 106.045 156.2099 90)
 			(effects
 				(font
@@ -6053,7 +6053,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "TX"
 			(at 106.045 158.7499 90)
 			(effects
 				(font
@@ -6129,7 +6129,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3V3"
 			(at 150.495 153.6701 90)
 			(effects
 				(font
@@ -6298,7 +6298,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RX"
 			(at 106.045 161.2899 90)
 			(effects
 				(font

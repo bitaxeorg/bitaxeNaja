@@ -1873,6 +1873,12 @@
 		(uuid "3e96f960-36a0-47af-939f-68c70a8eefb4")
 	)
 	(junction
+		(at 176.53 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f248175-7bd1-495c-92fb-9b96f7ff312b")
+	)
+	(junction
 		(at 57.15 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2053,6 +2059,12 @@
 		(uuid "8a096b8b-6e31-417e-978f-70bc8107f8b8")
 	)
 	(junction
+		(at 148.5368 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a1fab95-e33d-4785-8bbe-eb83afe9089e")
+	)
+	(junction
 		(at 119.38 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2161,10 +2173,28 @@
 		(uuid "bcd4c137-4311-4188-bccf-7743c5d96564")
 	)
 	(junction
+		(at 148.59 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0a81c8a-ef07-4bb4-b73c-460a4ae1f9b4")
+	)
+	(junction
+		(at 66.04 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c256c771-a7eb-4b7f-bc51-c237710357b8")
+	)
+	(junction
 		(at 142.24 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3f75d17-b915-4047-b343-46ce47d35fb4")
+	)
+	(junction
+		(at 148.59 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4abeaeb-d060-4944-bf48-06fab55e8c52")
 	)
 	(junction
 		(at 205.74 85.09)
@@ -2251,10 +2281,22 @@
 		(uuid "e99abb97-5e88-4375-827a-7ed16697138e")
 	)
 	(junction
+		(at 148.59 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb7d24ba-0ebc-40be-ab2b-606afc056ad3")
+	)
+	(junction
 		(at 151.13 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee606aab-a145-4254-b99d-6e5cd951ab83")
+	)
+	(junction
+		(at 154.94 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef313b37-4423-4281-841d-47218f737eea")
 	)
 	(junction
 		(at 139.7 74.93)
@@ -2550,6 +2592,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 109.22) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11db4857-2a29-42ec-bb09-a2224fd1b11a")
+	)
+	(wire
+		(pts
 			(xy 175.26 34.29) (xy 189.23 34.29)
 		)
 		(stroke
@@ -2647,6 +2699,16 @@
 			(type default)
 		)
 		(uuid "1c77259d-206d-42ff-be1d-73fbc6801812")
+	)
+	(wire
+		(pts
+			(xy 148.59 106.68) (xy 185.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d31c7bd-e5b6-420f-b6a9-ee00fc5698aa")
 	)
 	(wire
 		(pts
@@ -2927,6 +2989,16 @@
 			(type default)
 		)
 		(uuid "324fff76-215f-4a24-b348-3ca841c8d464")
+	)
+	(wire
+		(pts
+			(xy 176.53 129.54) (xy 181.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347e2414-58ff-4eca-8770-0e53efddb57a")
 	)
 	(wire
 		(pts
@@ -3370,16 +3442,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 124.46) (xy 81.28 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a62d4e-edb6-450c-b4a1-99a8a4b8db86")
-	)
-	(wire
-		(pts
 			(xy 220.98 40.64) (xy 220.98 43.18)
 		)
 		(stroke
@@ -3387,6 +3449,16 @@
 			(type default)
 		)
 		(uuid "5252b03a-d735-45fb-af94-28144837dd78")
+	)
+	(wire
+		(pts
+			(xy 116.84 124.46) (xy 120.65 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538b2070-ce21-4451-8f8d-5689ee4b4e7d")
 	)
 	(wire
 		(pts
@@ -3440,7 +3512,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 129.54) (xy 181.61 129.54)
+			(xy 120.65 129.54) (xy 176.53 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3517,6 +3589,16 @@
 			(type default)
 		)
 		(uuid "60cbb8af-ccab-4ab6-8202-b833f240d8b9")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 185.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e9cc8d-5e7e-4778-937f-767e70912ab1")
 	)
 	(wire
 		(pts
@@ -3830,6 +3912,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 124.46) (xy 81.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eda4c99-d8e1-4b02-8340-26e746e0b1a1")
+	)
+	(wire
+		(pts
 			(xy 209.55 48.26) (xy 217.17 48.26)
 		)
 		(stroke
@@ -3910,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 111.76) (xy 185.42 111.76)
+			(xy 116.84 111.76) (xy 148.59 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4000,7 +4092,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 109.22) (xy 185.42 109.22)
+			(xy 116.84 109.22) (xy 148.59 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4220,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 185.42 114.3)
+			(xy 116.84 114.3) (xy 148.5368 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4250,13 +4342,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 124.46) (xy 185.42 124.46)
+			(xy 220.98 124.46) (xy 231.14 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5ec67ed-6c72-4d74-80a3-36f21a770628")
+		(uuid "a4fdaa19-d0a2-4b25-9ee1-c6d70d6c1ed4")
 	)
 	(wire
 		(pts
@@ -4300,7 +4392,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 116.84) (xy 185.42 116.84)
+			(xy 152.4 116.84) (xy 154.94 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4460,6 +4552,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 124.46) (xy 185.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52e774b-6e2a-49a9-9f0f-8aa8c7f2582f")
+	)
+	(wire
+		(pts
 			(xy 139.7 101.6) (xy 162.56 101.6)
 		)
 		(stroke
@@ -4490,6 +4592,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 116.84) (xy 185.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba25d571-48de-475f-9699-42728deb039c")
+	)
+	(wire
+		(pts
 			(xy 142.24 171.45) (xy 142.24 166.37)
 		)
 		(stroke
@@ -4507,6 +4619,16 @@
 			(type default)
 		)
 		(uuid "bb2e1791-cf95-47ab-bbcf-936bb946be29")
+	)
+	(wire
+		(pts
+			(xy 148.5368 114.3) (xy 185.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba537ae-8784-439b-b3ce-ed1da7092b18")
 	)
 	(wire
 		(pts
@@ -4690,6 +4812,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 124.46) (xy 66.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4546e4-641d-428b-b5f4-fd2169334b8e")
+	)
+	(wire
+		(pts
 			(xy 205.74 66.04) (xy 205.74 74.93)
 		)
 		(stroke
@@ -4740,7 +4872,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 185.42 106.68)
+			(xy 116.84 106.68) (xy 148.59 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4767,6 +4899,16 @@
 			(type default)
 		)
 		(uuid "d02f0c83-7db6-437b-9438-c76ae5c63046")
+	)
+	(wire
+		(pts
+			(xy 176.53 124.46) (xy 176.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c94b5c-6ff9-41f3-8c07-b1979b0e1932")
 	)
 	(wire
 		(pts
@@ -5869,17 +6011,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 48.006 121.666 90)
+		(property "Value" "ROSC"
+			(at 58.674 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
 			(at 53.34 124.46 0)
 			(effects
 				(font
@@ -6832,6 +6973,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 154.94 116.84 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "21deb0a4-1fb1-4ff4-aca6-d8662f87de46")
+		(property "Reference" "TP40"
+			(at 159.258 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BO"
+			(at 164.338 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b48e0bc8-ed6d-4ef1-93c1-f29d0ce53817")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 111.76 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6923,7 +7131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
 			(at 240.03 121.92 0)
 			(effects
 				(font
@@ -7320,6 +7528,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 120.65 124.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "385e4310-efd9-44af-af26-bbe639aa74c1")
+		(property "Reference" "TP41"
+			(at 124.968 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MODE"
+			(at 130.302 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30114895-250d-4a88-aa18-0b1fff198f36")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 240.03 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7345,7 +7620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
 			(at 240.03 119.38 0)
 			(effects
 				(font
@@ -7700,7 +7975,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0720KL"
 			(at 81.28 180.34 0)
 			(effects
 				(font
@@ -7709,7 +7984,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-20.0KLRCT-ND"
 			(at 81.28 180.34 0)
 			(effects
 				(font
@@ -7728,6 +8003,73 @@
 			(project "bitaxeNaja"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 111.76 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e7f4572-08aa-4e3c-999f-5c10b5339a31")
+		(property "Reference" "TP38"
+			(at 152.908 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RI"
+			(at 158.242 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8cce09b-8f61-4d89-a66e-39fa712c0fc0")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -7760,7 +8102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
 			(at 240.03 114.3 0)
 			(effects
 				(font
@@ -7881,6 +8223,73 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 231.14 124.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e7b88c7-e9ef-49a5-a198-e100134fd4fc")
+		(property "Reference" "TP42"
+			(at 235.458 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MODE"
+			(at 241.046 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 231.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24054acf-b46a-4973-ac4f-a3ad93b5b850")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP42")
 					(unit 1)
 				)
 			)
@@ -8027,7 +8436,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0738K3L"
 			(at 81.28 170.18 0)
 			(effects
 				(font
@@ -8036,7 +8445,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "YAG3141CT-ND"
 			(at 81.28 170.18 0)
 			(effects
 				(font
@@ -8645,7 +9054,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0719K1L"
 			(at 151.13 170.18 0)
 			(effects
 				(font
@@ -8654,7 +9063,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-19.1KLRCT-ND"
 			(at 151.13 170.18 0)
 			(effects
 				(font
@@ -8792,7 +9201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
 			(at 240.03 116.84 0)
 			(effects
 				(font
@@ -8850,17 +9259,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 48.006 124.206 90)
+		(property "Value" "LITE"
+			(at 57.404 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
 			(at 53.34 127 0)
 			(effects
 				(font
@@ -9370,17 +9778,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 159.766 121.666 90)
+		(property "Value" "ROSC"
+			(at 170.942 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
 			(at 165.1 124.46 0)
 			(effects
 				(font
@@ -9567,6 +9974,140 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 106.68 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d13d977-3d57-4f1c-b76a-83ca73750ea0")
+		(property "Reference" "TP26"
+			(at 152.908 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RST"
+			(at 157.988 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d536ea-2488-4c69-9141-22be2f80e609")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.5368 114.3 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0c50292-ab55-4c3c-889a-f16a8777a729")
+		(property "Reference" "TP39"
+			(at 152.8548 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CLK"
+			(at 157.988 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 148.5368 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.5368 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.5368 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fc28305-d452-47e9-a3d8-00830ae442a0")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -9937,74 +10478,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 74.93 124.46 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad58d561-410d-47cc-b518-fe4466540ce2")
-		(property "Reference" "TP14"
-			(at 70.612 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 69.596 126.746 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 74.93 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 74.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd896a93-b44d-4944-9a51-de2f0c43bb58")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 151.13 180.34 180)
 		(unit 1)
@@ -10058,7 +10531,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0720KL"
 			(at 151.13 180.34 0)
 			(effects
 				(font
@@ -10067,7 +10540,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-20.0KLRCT-ND"
 			(at 151.13 180.34 0)
 			(effects
 				(font
@@ -10665,7 +11138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
 			(at 240.03 111.76 0)
 			(effects
 				(font
@@ -10699,6 +11172,73 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 109.22 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc32125c-6ec6-4466-83a3-f6dece1c5505")
+		(property "Reference" "TP37"
+			(at 152.908 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CO"
+			(at 157.988 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f700537-ee6e-4a58-adc8-fd742cadaca1")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "TP37")
 					(unit 1)
 				)
 			)
@@ -10967,74 +11507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 179.07 124.46 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9715e8c-96fc-4f65-9c0b-0faf7eb88ea0")
-		(property "Reference" "TP16"
-			(at 174.752 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 173.736 126.746 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 179.07 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 179.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c1f0f28-0e3a-4659-8a02-428c9eed125c")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bitaxe:oscillator")
 		(at 87.63 43.18 0)
 		(unit 1)
@@ -11153,17 +11625,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 159.766 124.206 90)
+		(property "Value" "LITE"
+			(at 169.672 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_1.0x0.4mm"
 			(at 165.1 127 0)
 			(effects
 				(font
