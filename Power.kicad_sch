@@ -7157,7 +7157,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "YAG2293CT-ND"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -7166,7 +7166,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "RC0402FR-076K04L"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -7427,7 +7427,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0731K6L"
 			(at 189.23 99.06 90)
 			(effects
 				(font
@@ -7436,7 +7436,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "YAG3115CT-ND"
 			(at 189.23 99.06 90)
 			(effects
 				(font
@@ -7886,7 +7886,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0746K4L"
 			(at 199.39 116.84 90)
 			(effects
 				(font
@@ -7895,7 +7895,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "311-46.4KLRCT-ND"
 			(at 199.39 116.84 90)
 			(effects
 				(font
@@ -10222,7 +10222,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-07649RL"
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -10231,7 +10231,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "YAG3206CT-ND"
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -10377,7 +10377,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "RC0402FR-0731K6L"
 			(at 217.17 116.84 0)
 			(effects
 				(font
@@ -10386,7 +10386,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "YAG3115CT-ND"
 			(at 217.17 116.84 0)
 			(effects
 				(font
