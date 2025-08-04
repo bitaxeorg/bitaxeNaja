@@ -2072,6 +2072,16 @@
 		)
 		(uuid "9dee0662-df71-464f-8045-6f4e9bd37ee5")
 	)
+	(text "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=AB4E99DD6CDB035C"
+		(exclude_from_sim no)
+		(at 283.21 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aa153324-036f-4998-95e9-5457bfebda6c")
+	)
 	(text "100mA Max"
 		(exclude_from_sim no)
 		(at 114.554 190.5 0)
