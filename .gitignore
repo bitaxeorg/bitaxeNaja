@@ -29,5 +29,11 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *auto_saved_files*
-i*bak
-Manufacturing Files/
+*bak
+
+*.zip
+*-backups/
+*.lck
+\#auto_saved_files#
+.DS_Store
+Manufacturing Files
