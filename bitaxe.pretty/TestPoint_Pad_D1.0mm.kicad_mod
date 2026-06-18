@@ -1,15 +1,15 @@
-(footprint "TestPoint_Pad_1.0x0.4mm"
+(footprint "TestPoint_Pad_D1.0mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SMD rectangular pad as test Point, square 1.0mm side length")
-	(tags "test point SMD pad rectangle square")
+	(descr "SMD pad as test Point, diameter 1.0mm")
+	(tags "test point SMD pad")
 	(property "Reference" "REF**"
-		(at 0 -1.448 0)
-		(layer "F.Fab")
+		(at -3.203 0.153 0)
+		(layer "F.SilkS")
 		(hide yes)
-		(uuid "57854389-d614-41bc-badd-9e50c042f000")
+		(uuid "ed08342a-eaee-43e9-b96e-1dd00b47763e")
 		(effects
 			(font
 				(size 1 1)
@@ -17,11 +17,10 @@
 			)
 		)
 	)
-	(property "Value" "TestPoint_Pad_1.0x0.4mm"
+	(property "Value" "TestPoint_Pad_D1.0mm"
 		(at 0 1.55 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "ffbacf47-0bca-42da-9556-58707a172b94")
+		(layer "F.Fab")
+		(uuid "a41410ba-6764-40d3-8271-3889cd1f68dc")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "60705c60-ce89-4d2e-9646-ced329925477")
+		(uuid "bbd00a64-0ad7-4134-9e20-451eedc76ac1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "35b5fc35-3c5a-44e3-b9ea-03dcdfe1cc53")
+		(uuid "a133e317-3bd7-4ca7-93e3-03b03f97dc95")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,22 +55,33 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_rect
-		(start -0.566 -0.274)
-		(end 0.566 0.273)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "232e49b3-175c-43f1-906b-a67d81adeac2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b7cc9a59-42ac-4395-a770-e2efaa6a4513")
+		(uuid "f02f025d-d308-4e0d-bc6c-e230724bf915")
 	)
 	(fp_text user "${VALUE}"
-		(at 0.484 0.616 0)
+		(at 0.729 0.591 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "62c93bb0-0472-439f-97f0-642dc6dfdad9")
+		(uuid "5133b6f3-37dd-4785-b116-78c47ef0e399")
 		(effects
 			(font
 				(size 1 1)
@@ -81,9 +91,9 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.827 -1.112 0)
+		(at 0 -1.45 0)
 		(layer "F.Fab")
-		(uuid "2db9ed6b-9c42-4990-8b32-fddeb89b4566")
+		(uuid "ecb9d95d-c3e5-4a80-b7be-d742b8cad331")
 		(effects
 			(font
 				(size 1 1)
@@ -91,11 +101,11 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd circle
 		(at 0 0)
-		(size 1 0.4)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask")
-		(uuid "c7a53b80-2670-4411-8770-45df62759000")
+		(uuid "bab732e9-e79a-410d-8a2b-e7d9e8d299bb")
 	)
 	(embedded_fonts no)
 )

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "bitaxeNaja")
-		(date "2025-07-17")
-		(rev "1200x")
+		(date "2026-06-18")
+		(rev "1201x")
 		(company "bitaxeorg")
 		(comment 1 "OHL v2")
 	)
@@ -1133,7 +1133,7 @@
 		)
 		(uuid "1ef37afe-eff2-43d4-bcde-29cfb1e3bfa5")
 	)
-	(label "Vcore"
+	(label "VDD"
 		(at 90.17 107.95 0)
 		(effects
 			(font
@@ -1193,7 +1193,7 @@
 		)
 		(uuid "a59aaba9-53f1-4d5d-9620-dd56c43926ec")
 	)
-	(label "Vcore"
+	(label "VDD"
 		(at 167.64 46.99 0)
 		(effects
 			(font
@@ -2484,7 +2484,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Vcore" output
+		(pin "VDD" output
 			(at 128.27 46.99 0)
 			(uuid "de1eb332-e7d7-474f-bd28-dd3314bf2094")
 			(effects
@@ -2620,7 +2620,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Vcore" input
+		(pin "VDD" input
 			(at 173.99 46.99 180)
 			(uuid "e4c6da4d-b4da-459e-b31b-1f3e57cf5a0a")
 			(effects

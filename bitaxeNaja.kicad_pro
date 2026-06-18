@@ -290,7 +290,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1200x"
+      "sch_revision": "1201x"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -584,7 +584,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://bitaxe.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -742,7 +742,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,U3-5,U9-12,U14,TP1,TP14-28,TP30,L1-3,R3,R5-8,R12-13,R15-18,R37-38,#PWR1-2,#PWR4,C1-3,C6-19,C21-24,C29-30,C34-37,C39,C42-43,C63,C88-91,C96-98,NT1",
     "variants": []
   },
   "sheets": [
@@ -765,6 +765,10 @@
     [
       "edab3562-ad75-4c4e-afab-a1841dcf5714",
       "fan"
+    ],
+    [
+      "e54a6d2e-c74f-49ed-b74b-fa12427eb615",
+      "Level Shifter"
     ]
   ],
   "text_variables": {},
