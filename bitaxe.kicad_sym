@@ -334,6 +334,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
+		(jumper_pin_groups
+			("14" "17")
+			("15" "16")
+		)
 		(property "Reference" "U4"
 			(at -15.24 21.59 0)
 			(show_name no)
@@ -439,6 +443,32 @@
 			)
 		)
 		(symbol "BM1340_mode0_1_1"
+			(polyline
+				(pts
+					(xy 15.24 -15.24) (xy -15.24 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 194 194 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -17.78) (xy -15.24 -17.78)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 194 194 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin power_in line
 				(at -17.78 17.78 0)
 				(length 2.54)
@@ -1024,6 +1054,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
+		(jumper_pin_groups
+			("14" "17")
+			("15" "16")
+		)
 		(property "Reference" "U4"
 			(at -15.24 21.59 0)
 			(show_name no)
@@ -1129,6 +1163,32 @@
 			)
 		)
 		(symbol "BM1340_mode1_1_1"
+			(polyline
+				(pts
+					(xy 15.24 -15.24) (xy -15.24 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 194 194 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -17.78) (xy -15.24 -17.78)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 194 194 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin power_in line
 				(at -17.78 17.78 0)
 				(length 2.54)

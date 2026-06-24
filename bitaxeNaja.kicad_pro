@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 2,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -60,32 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|121150000|84850000|8218215b-a337-45e8-92e5-a5208733816f|313ee41a-51eb-45dd-bd91-bf0cfa2c9b3e",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121312500|83850000|8218215b-a337-45e8-92e5-a5208733816f|a493383f-7135-43b8-a831-19bd3245b9b6",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121350000|84850000|8218215b-a337-45e8-92e5-a5208733816f|b3937c43-65d8-4372-9d41-953b2cf0d1e7",
-          ""
-        ],
-        [
-          "solder_mask_bridge|145500000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|91ea343e-2580-45d5-ac3d-7199c2ec7468",
-          ""
-        ],
-        [
-          "solder_mask_bridge|145662500|83830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|9f50eb76-3ed2-4330-8dac-b57fa4d7ad4e",
-          ""
-        ],
-        [
-          "solder_mask_bridge|145700000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|96f250f8-e0ba-4e85-854b-6dc5fecce8ae",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -742,7 +733,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "U1,U3-5,U9-12,U14,TP1,TP14-28,TP30,L1-3,R3,R5-8,R12-13,R15-18,R37-38,#PWR1-2,#PWR4,C1-3,C6-19,C21-24,C29-30,C34-37,C39,C42-43,C63,C88-91,C96-98,NT1",
+    "used_designators": "U15,HS1,TP31,R73,C99",
     "variants": []
   },
   "sheets": [
