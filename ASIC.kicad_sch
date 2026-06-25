@@ -4759,16 +4759,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 105.41) (xy 74.93 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "555426e9-a42b-4ed7-92af-9a72523c969f")
-	)
-	(wire
-		(pts
 			(xy 228.6 148.59) (xy 219.71 148.59)
 		)
 		(stroke
@@ -6957,7 +6947,7 @@
 		)
 		(uuid "2422f731-ccba-4e84-abdd-e43fdb961b1b")
 	)
-	(label "1V2"
+	(label "1V2_0"
 		(at 95.25 195.58 180)
 		(effects
 			(font
@@ -7117,17 +7107,7 @@
 		)
 		(uuid "6fa4eec8-325a-4318-aa24-65ccc4effa74")
 	)
-	(label "5V"
-		(at 74.93 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6fdb573d-3911-4308-92f3-4a846b2d4574")
-	)
-	(label "1V2"
+	(label "1V2_0"
 		(at 95.25 198.12 180)
 		(effects
 			(font
@@ -7597,16 +7577,16 @@
 		)
 		(uuid "5f0b18e0-6b26-40da-acf4-56c423807daf")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "5V_SWITCH"
 		(shape input)
-		(at 62.23 105.41 180)
+		(at 345.44 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8a7302db-85c3-43e8-b2dd-33f8b33fbe00")
+		(uuid "9fd7bdf9-7c39-428c-ba2a-ee810bc1a8a4")
 	)
 	(hierarchical_label "TEMP2_N"
 		(shape output)
