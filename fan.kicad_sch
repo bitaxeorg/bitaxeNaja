@@ -1824,7 +1824,7 @@
 		(uuid "285a815c-78a1-4ec3-8720-bc5fd1d6793d")
 	)
 	(label "TEMP1_N"
-		(at 62.23 113.03 0)
+		(at 62.23 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1854,7 +1854,7 @@
 		(uuid "5ddde026-3f95-45cc-8b8f-c2f7dd97bc90")
 	)
 	(label "TEMP1_P"
-		(at 62.23 102.87 0)
+		(at 62.23 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1864,7 +1864,7 @@
 		(uuid "61064613-2ac0-4251-bfd0-7fe2305b3a31")
 	)
 	(label "TEMP2_P"
-		(at 62.23 80.01 0)
+		(at 62.23 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1884,7 +1884,7 @@
 		(uuid "6615bedc-1f3c-4be2-8eaa-e26141878f65")
 	)
 	(label "TEMP2_N"
-		(at 62.23 90.17 0)
+		(at 62.23 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 	)
 	(hierarchical_label "TEMP2_N"
 		(shape input)
-		(at 57.15 90.17 180)
+		(at 57.15 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2114,7 +2114,7 @@
 	)
 	(hierarchical_label "TEMP1_N"
 		(shape input)
-		(at 57.15 113.03 180)
+		(at 57.15 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2125,7 +2125,7 @@
 	)
 	(hierarchical_label "TEMP2_P"
 		(shape input)
-		(at 57.15 80.01 180)
+		(at 57.15 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2136,7 +2136,7 @@
 	)
 	(hierarchical_label "TEMP1_P"
 		(shape input)
-		(at 57.15 102.87 180)
+		(at 57.15 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
