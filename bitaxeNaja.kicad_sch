@@ -697,6 +697,10 @@
 		(uuid "f62bc8c7-bab0-4780-8a58-60601d5c188a")
 	)
 	(no_connect
+		(at 48.26 144.78)
+		(uuid "37e0f447-37ef-42af-95ea-f2c5220b17c5")
+	)
+	(no_connect
 		(at 48.26 165.1)
 		(uuid "52e4d37d-2cd4-448b-a20f-4063cb581758")
 	)
@@ -709,12 +713,28 @@
 		(uuid "5da802bb-587b-4e24-9850-bcde01a6d1da")
 	)
 	(no_connect
+		(at 48.26 152.4)
+		(uuid "6e2934e7-2134-4fdb-b165-c3fbe777b2dc")
+	)
+	(no_connect
+		(at 48.26 149.86)
+		(uuid "82c4a52c-c445-44d9-b6d6-f1e7b7749d79")
+	)
+	(no_connect
+		(at 48.26 147.32)
+		(uuid "96e4b013-f952-42df-9fbd-3581f2b4f233")
+	)
+	(no_connect
 		(at 48.26 170.18)
 		(uuid "a5049217-1921-4a8d-b261-c29cedf35e66")
 	)
 	(no_connect
 		(at 48.26 162.56)
 		(uuid "b48117fe-331d-4ad9-8cdd-991db0e3a0e8")
+	)
+	(no_connect
+		(at 48.26 142.24)
+		(uuid "dfdc4ed0-0482-4107-b31c-3fe4255be642")
 	)
 	(wire
 		(pts
@@ -1551,6 +1571,129 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:Heatsink")
+		(at 50.8 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "047b13b7-2058-434d-9986-3fb77ed6d199")
+		(property "Reference" "HS2"
+			(at 54.61 136.652 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 54.61 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:70mm-mounting_HTPC"
+			(at 51.1048 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.1048 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 50.8 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 50.8 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 50.8 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33a83703-6d7b-45e4-a8d3-c5773950c726")
+		)
+		(pin "4"
+			(uuid "9c25e116-997b-4e41-8d13-ba15b9ec662d")
+		)
+		(pin "5"
+			(uuid "bf53464f-3ee1-4f94-8fbc-777439dcfccb")
+		)
+		(pin "2"
+			(uuid "66a96319-3257-4052-a67f-46c855837b05")
+		)
+		(pin "3"
+			(uuid "dcc4e805-df35-4a51-ae2a-24b7c426cd62")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "HS2")
+					(unit 1)
+				)
 			)
 		)
 	)

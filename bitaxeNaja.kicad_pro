@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_sliver|130555206|143487057|00000000-0000-0000-0000-000000000000|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -738,7 +733,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "NT2,TP31,U15,HS1,R73,C99",
+    "used_designators": "NT2,TP31,U15,HS1-2,R73,C99",
     "variants": []
   },
   "sheets": [
