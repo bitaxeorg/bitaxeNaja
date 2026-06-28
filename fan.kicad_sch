@@ -554,7 +554,7 @@
 					)
 				)
 			)
-			(property "Value" "EMC2103-2"
+			(property "Value" "EMC2103-4-AP-TR"
 				(at -5.08 18.034 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2244,6 +2244,17 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 80.01 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "867858ad-3c36-4969-8994-91ce011b0839")
 		)
@@ -2325,6 +2336,17 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 165.1 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4cd56236-8841-48a0-8fce-1cbc93c6c34e")
 		)
@@ -2362,7 +2384,7 @@
 				)
 			)
 		)
-		(property "Value" "EMC2103-2"
+		(property "Value" "EMC2103-4-AP-TR"
 			(at 132.08 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2418,6 +2440,17 @@
 		)
 		(property "PARTNO" "EMC2103-4-AP-TR"
 			(at 132.08 122.428 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 132.08 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2575,6 +2608,17 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 90.17 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5af5e81-6c2f-44bf-bf3a-45779f69421c")
 		)
@@ -2646,6 +2690,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 165.1 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
 			(at 165.1 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2760,6 +2815,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 240.03 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b7992896-d6ee-46be-ab66-3786717453ee")
 		)
@@ -2853,6 +2930,17 @@
 			)
 		)
 		(property "DK" "490-1297-1-ND"
+			(at 90.17 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
 			(at 90.17 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2958,6 +3046,17 @@
 			)
 		)
 		(property "PARTNO" "0470531000"
+			(at 260.35 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
 			(at 260.35 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3077,6 +3176,17 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 80.01 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "24f95f76-a477-43a4-b960-950de0319156")
 		)
@@ -3171,6 +3281,17 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-075K6L"
+			(at 214.63 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
 			(at 214.63 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3285,6 +3406,17 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd1041f7-7f66-4ae9-aec2-a634bdbd2f87")
 		)
@@ -3389,6 +3521,17 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 231.14 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9fb761d1-962a-4cb0-a38c-7b6b3bb8ed90")
 		)
@@ -3483,6 +3626,17 @@
 		)
 		(property "PARTNO" "RC0402JR-070RL"
 			(at 80.01 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 80.01 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3605,6 +3759,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C344022"
+			(at 228.6 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 228.6 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "989ea682-453e-4267-a892-023b110c8f31")
 		)
@@ -3699,6 +3875,17 @@
 		)
 		(property "PARTNO" "RC0402JR-070RL"
 			(at 80.01 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 80.01 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

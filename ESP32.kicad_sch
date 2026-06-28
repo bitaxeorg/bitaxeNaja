@@ -1492,7 +1492,7 @@
 					)
 				)
 			)
-			(property "Value" "ESP32-S3-WROOM-1"
+			(property "Value" "ESP32-S3-WROOM-1-N16R8"
 				(at 45.72 34.925 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1535,7 +1535,7 @@
 					)
 				)
 			)
-			(property "DK" "1965-ESP32-S3-WROOM-1-N16R8CT-ND"
+			(property "DK" "5407-ESP32-S3-WROOM-1-N16R8TR-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5042,6 +5042,17 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6512db4c-5afa-45d8-ab3d-4ae97059c34c")
 		)
@@ -5152,6 +5163,17 @@
 			)
 		)
 		(property "PARTNO" "FFC2B35-08-T"
+			(at 247.65 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
 			(at 247.65 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5334,6 +5356,17 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 67.31 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b15fdfaa-5d49-4116-a085-4ac7c2e92990")
 		)
@@ -5426,7 +5459,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C2177690"
 			(at 31.75 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -5471,6 +5504,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 31.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
 			(at 31.75 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -5575,6 +5619,17 @@
 			)
 		)
 		(property "PARTNO" "USB4105-GF-A"
+			(at 257.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
 			(at 257.81 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5719,8 +5774,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC" "C2481753"
 			(at 234.95 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 234.95 58.42 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5842,6 +5908,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C344022"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb7bf015-9caa-4fd6-bc73-474ae99d0e14")
 		)
@@ -5879,7 +5967,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
+		(property "Value" "ESP32-S3-WROOM-1-N16R8"
 			(at 142.24 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,7 +6010,7 @@
 				)
 			)
 		)
-		(property "DK" "1965-ESP32-S3-WROOM-1-N16R8CT-ND"
+		(property "DK" "5407-ESP32-S3-WROOM-1-N16R8TR-ND"
 			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5934,6 +6022,17 @@
 			)
 		)
 		(property "PARTNO" "ESP32-S3-WROOM-1-N16R8"
+			(at 140.97 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
 			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6164,6 +6263,17 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 57.15 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "18c8ef3f-7b71-456a-bdcf-2ca7334a16ac")
 		)
@@ -6242,6 +6352,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 201.93 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
 			(at 201.93 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6362,6 +6483,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 66.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 66.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6fa62c0a-106e-4dd7-bbc9-8c0e6fd66e37")
 		)
@@ -6467,6 +6610,17 @@
 		)
 		(property "Voltage" "50V"
 			(at 66.04 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 66.04 58.42 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6611,6 +6765,17 @@
 				)
 			)
 		)
+		(property "Mouser" ""
+			(at 53.34 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83574c44-f4f2-43dd-b114-2e17172b2601")
 		)
@@ -6724,8 +6889,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC" "C2481753"
 			(at 223.52 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 223.52 55.88 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
