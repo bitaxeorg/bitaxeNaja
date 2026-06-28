@@ -829,6 +829,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -2621,12 +2763,6 @@
 		(uuid "7aa903be-87aa-4bf9-a2d3-7c19afba4055")
 	)
 	(junction
-		(at 335.28 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ddcaf9f-17a6-450b-9495-2531d04b1918")
-	)
-	(junction
 		(at 167.64 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2693,10 +2829,10 @@
 		(uuid "a3c688b6-b15d-41e7-a6e5-6452b5bdd127")
 	)
 	(junction
-		(at 328.93 66.04)
+		(at 327.66 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a439043b-a9e5-4fc4-9f52-210616aa0ea1")
+		(uuid "a49c8599-3de9-4ba4-9013-9464f047c82a")
 	)
 	(junction
 		(at 186.69 48.26)
@@ -2715,6 +2851,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9b37942-cc71-4f96-bb07-75363e717679")
+	)
+	(junction
+		(at 335.28 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba2a8580-d759-43b3-a3ca-eb30990eac08")
 	)
 	(junction
 		(at 157.48 67.31)
@@ -2970,16 +3112,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 66.04) (xy 328.93 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0874e2d4-d466-4ddf-ac6b-b5f0ec461486")
-	)
-	(wire
-		(pts
 			(xy 234.95 90.17) (xy 234.95 92.71)
 		)
 		(stroke
@@ -3030,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 66.04) (xy 328.93 66.04)
+			(xy 323.85 66.04) (xy 327.66 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3077,6 +3209,16 @@
 			(type default)
 		)
 		(uuid "1740f0bc-e014-40a4-9241-171ad74cedcb")
+	)
+	(wire
+		(pts
+			(xy 327.66 66.04) (xy 336.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9ab8c4-f403-4d79-9d3b-9659b4ab7659")
 	)
 	(wire
 		(pts
@@ -3230,6 +3372,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 93.98) (xy 335.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a72179a-bae1-479f-b8bc-1e5e18254a5b")
+	)
+	(wire
+		(pts
 			(xy 156.21 184.15) (xy 156.21 189.23)
 		)
 		(stroke
@@ -3337,6 +3489,16 @@
 			(type default)
 		)
 		(uuid "37909ef5-725d-417d-a0f7-07d7a68367a7")
+	)
+	(wire
+		(pts
+			(xy 335.28 88.9) (xy 336.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39bd6486-f324-4659-bbfa-1d186d034b6a")
 	)
 	(wire
 		(pts
@@ -3600,6 +3762,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 92.71) (xy 247.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543b2fa5-37a7-4820-a059-77ebd3b950bf")
+	)
+	(wire
+		(pts
 			(xy 128.27 208.28) (xy 129.54 208.28)
 		)
 		(stroke
@@ -3760,7 +3932,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 104.14) (xy 242.57 104.14)
+			(xy 234.95 104.14) (xy 247.65 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4097,16 +4269,6 @@
 			(type default)
 		)
 		(uuid "82708b53-d43e-499e-8c02-b78b4ba549c7")
-	)
-	(wire
-		(pts
-			(xy 318.77 88.9) (xy 335.28 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8272532d-7cd2-488f-97a7-58a796a3bd0c")
 	)
 	(wire
 		(pts
@@ -4850,7 +5012,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 88.9) (xy 336.55 88.9)
+			(xy 318.77 88.9) (xy 335.28 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4920,6 +5082,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 71.12) (xy 327.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc22468a-c0d9-4477-8c89-ef163144e0ce")
+	)
+	(wire
+		(pts
 			(xy 204.47 80.01) (xy 200.66 80.01)
 		)
 		(stroke
@@ -4977,6 +5149,16 @@
 			(type default)
 		)
 		(uuid "e2bee285-216a-487b-9e6d-9a38f39c4c92")
+	)
+	(wire
+		(pts
+			(xy 247.65 97.79) (xy 247.65 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cbaa6e-1571-454d-96df-0b237c731022")
 	)
 	(wire
 		(pts
@@ -5140,16 +5322,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 111.76) (xy 335.28 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f454321b-deea-4824-9d9e-6269d42a3640")
-	)
-	(wire
-		(pts
 			(xy 261.62 101.6) (xy 261.62 104.14)
 		)
 		(stroke
@@ -5170,7 +5342,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 101.6) (xy 328.93 101.6)
+			(xy 276.86 101.6) (xy 327.66 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5217,16 +5389,6 @@
 			(type default)
 		)
 		(uuid "fa8308fd-3a9e-4de5-8e33-72d03fb4efd1")
-	)
-	(wire
-		(pts
-			(xy 328.93 66.04) (xy 336.55 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc654862-ec7e-4059-a07e-943d39b4610f")
 	)
 	(wire
 		(pts
@@ -5378,7 +5540,17 @@
 		)
 		(uuid "7c8b97ce-c04f-46e8-a87e-fb0417979e71")
 	)
-	(label "GND"
+	(label "AGND"
+		(at 247.65 83.82 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8712456e-af3e-4e8f-b40b-12ce2d011564")
+	)
+	(label "AGND"
 		(at 172.72 80.01 0)
 		(effects
 			(font
@@ -5397,6 +5569,16 @@
 			(justify left bottom)
 		)
 		(uuid "8e7a7d2f-e0f8-4100-9c96-27acdb0b65cd")
+	)
+	(label "OSNS+"
+		(at 327.66 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9402a469-5371-4284-b88c-0ffd199396f3")
 	)
 	(label "SMB_ALRT"
 		(at 189.23 133.35 0)
@@ -5468,7 +5650,7 @@
 		)
 		(uuid "d9ddd3e6-aca3-4490-8128-5f1e0437a101")
 	)
-	(label "GND"
+	(label "AGND"
 		(at 245.11 134.62 180)
 		(effects
 			(font
@@ -5498,6 +5680,16 @@
 		)
 		(uuid "e794f7ed-2610-4b36-b919-1b44a587b7ff")
 	)
+	(label "OSNS-"
+		(at 335.28 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa95116f-83e0-4c13-8d9f-78785c613d11")
+	)
 	(global_label "GND"
 		(shape input)
 		(at 77.47 231.14 180)
@@ -5519,30 +5711,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 242.57 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9061e26b-8707-407e-9e71-2a7d2d1a788e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.4257 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -7166,6 +7334,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 335.28 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a83baf6-3efa-48e7-a598-9606678252ce")
+		(property "Reference" "NT6"
+			(at 336.55 92.202 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 336.55 94.488 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bitaxe:NetTie-2_SMD_Pad0.2mmx1mm"
+			(at 335.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 335.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer " ""
+			(at 335.28 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 335.28 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 335.28 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 335.28 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 335.28 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3a1f3002-17d3-4f24-85b5-19f780241fc8")
+		)
+		(pin "1"
+			(uuid "2269f64c-6e2e-402e-ba91-6db25d5bb666")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "NT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bitaxe:TPS62933DRLR")
 		(at 120.65 176.53 0)
 		(unit 1)
@@ -7481,6 +7785,88 @@
 			(project "bitaxeNaja"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 247.65 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eb7157a-cc9d-4443-9258-54000eb24a78")
+		(property "Reference" "NT2"
+			(at 248.92 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_1"
+			(at 248.92 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bitaxe:NetTie-2_SMD_Pad0.2mmx1mm"
+			(at 247.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 247.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f242c689-66e1-4c53-a91b-32ce76c5925f")
+		)
+		(pin "2"
+			(uuid "525ecf92-d7b7-4171-b350-158fb71949ab")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -8606,6 +8992,119 @@
 			(project "bitaxeNaja"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.88 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "826a8cf9-252a-4e5d-b51b-330119722686")
+		(property "Reference" "C21"
+			(at 181.61 75.438 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 181.356 77.216 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1117/EMK105BJ105MV-F_SS.pdf"
+			(at 182.88 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "TMK107B7105KA-T"
+			(at 182.88 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" "587-2984-1-ND"
+			(at 182.88 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 185.42 78.994 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c57e108-f64d-404a-aac7-4d9ed56397e9")
+		)
+		(pin "2"
+			(uuid "ec10e1c8-369e-4b26-b433-182ab08e6c95")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10370,163 +10869,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 182.88 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a992a481-c12c-4a85-9240-e79f66173b28")
-		(property "Reference" "C10"
-			(at 181.61 75.438 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 181.356 77.216 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.88 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "CL10B105KA8NNNC"
-			(at 182.88 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DK" "1276-1184-1-ND"
-			(at 182.88 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 185.42 78.994 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 182.88 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 182.88 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 182.88 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 182.88 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a140baae-f014-4581-8c31-bb84f1df7d8a")
-		)
-		(pin "2"
-			(uuid "d8ed3cd4-0c9e-4cec-ac92-3e0725e7cd69")
-		)
-		(instances
-			(project "bitaxeNaja"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 156.21 223.52 180)
 		(unit 1)
 		(body_style 1)
@@ -10688,6 +11030,143 @@
 			(project "bitaxeNaja"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 327.66 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b039300d-7230-43dd-8615-39440d91903b")
+		(property "Reference" "NT5"
+			(at 328.93 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 328.93 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bitaxe:NetTie-2_SMD_Pad0.2mmx1mm"
+			(at 327.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 327.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer " ""
+			(at 327.66 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 327.66 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 327.66 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 327.66 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 327.66 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70eeedd3-68e0-487d-a0d8-21298e300c54")
+		)
+		(pin "1"
+			(uuid "eedc586f-4f33-4b89-b461-5ec1efc2fec4")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "NT5")
 					(unit 1)
 				)
 			)
