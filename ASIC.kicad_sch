@@ -2268,7 +2268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxe:SN74AVC4T774-BQB"
+		(symbol "bitaxe:SN74AXC4T774PWR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2277,29 +2277,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 12.7 0)
+			(property "Reference" "U2"
+				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "SN74AXC4T774"
-				(at -7.62 -19.05 0)
+			(property "Value" "SN74AXC4T774PWR"
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "bitaxe:BQB0016A-MFG"
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 				(at 0.762 -24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2333,7 +2331,7 @@
 					)
 				)
 			)
-			(property "DK" "296-SN74AXC4T774BQBRCT-ND"
+			(property "DK" "296-SN74AXC4T774PWRCT-ND"
 				(at 1.016 -25.908 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2344,8 +2342,8 @@
 					)
 				)
 			)
-			(property "Partnum" "SN74AXC4T774BQBR"
-				(at -0.254 -25.908 0)
+			(property "PARTNO" "SN74AXC4T774PWR"
+				(at 1.016 -19.812 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2355,7 +2353,29 @@
 					)
 				)
 			)
-			(symbol "SN74AVC4T774-BQB_0_0"
+			(property "Mouser" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C1849453"
+				(at -0.254 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74AXC4T774PWR_0_0"
 				(rectangle
 					(start -7.62 11.43)
 					(end 7.62 -16.51)
@@ -2368,7 +2388,7 @@
 					)
 				)
 			)
-			(symbol "SN74AVC4T774-BQB_1_0"
+			(symbol "SN74AXC4T774PWR_1_0"
 				(pin input line
 					(at 10.16 -6.35 180)
 					(length 2.54)
@@ -2650,26 +2670,6 @@
 						)
 					)
 					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SN74AVC4T774-BQB_1_1"
-				(pin no_connect line
-					(at -10.16 -11.43 0)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8900,7 +8900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:SN74AVC4T774-BQB")
+		(lib_id "bitaxe:SN74AXC4T774PWR")
 		(at 77.47 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -8909,10 +8909,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1d482512-070e-47c1-a539-fa85afaf9853")
 		(property "Reference" "U2"
-			(at 77.47 168.91 0)
+			(at 77.47 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8965,7 +8964,7 @@
 				)
 			)
 		)
-		(property "DK" "296-SN74AXC4T774BQBRCT-ND"
+		(property "DK" "296-SN74AXC4T774PWRCT-ND"
 			(at 78.486 210.058 0)
 			(hide yes)
 			(show_name no)
@@ -8976,8 +8975,8 @@
 				)
 			)
 		)
-		(property "PARTNO" "SN74AXC4T774BQBR"
-			(at 77.47 184.15 0)
+		(property "PARTNO" "SN74AXC4T774PWR"
+			(at 78.486 203.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8989,6 +8988,17 @@
 		)
 		(property "Mouser" ""
 			(at 77.47 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1849453"
+			(at 77.216 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9045,9 +9055,6 @@
 		)
 		(pin "8"
 			(uuid "afac29ff-ebff-44d2-8856-7229c73790ff")
-		)
-		(pin "17"
-			(uuid "c1c1aa14-9622-4fc0-acbf-9f25421d3f30")
 		)
 		(instances
 			(project "bitaxeNaja"

@@ -1265,6 +1265,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "bitaxe:STHW4-DU-HN050206"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1292,7 +1298,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "bitaxeProto:PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206"
+			(property "Footprint" "bitaxe:PAD-SMD_L5.0-W2.0_STHW4-DU-HN050206"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1326,6 +1332,17 @@
 				)
 			)
 			(property "LCSC" "C18548300"
+				(at 2.794 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1348,21 +1365,12 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -1.27 1.27)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "STHW4-DU-HN050206_1_1"
 				(pin unspecified line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10779,7 +10787,7 @@
 			)
 		)
 		(property "LCSC" "C18548300"
-			(at 233.68 158.75 0)
+			(at 236.474 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12361,7 +12369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://products.sumida.com/products/pdf/104CDMCCDS.pdf"
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/59efd6f6-bdf3-4b2c-9ea4-f86f22cfee4e/slc1175.pdf"
 			(at 260.35 66.04 0)
 			(hide yes)
 			(show_name no)
