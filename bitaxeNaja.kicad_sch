@@ -231,7 +231,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxe:Heatsink"
+		(symbol "bitaxe:GTHeatsink-5hole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -241,7 +241,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "HS1"
-				(at 3.81 3.1751 0)
+				(at 3.81 3.048 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -251,8 +251,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Heatsink"
-				(at 3.81 0.6351 0)
+			(property "Value" "GTHeatsink-5hole"
+				(at 3.81 0.508 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -262,8 +262,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "bitaxe:Heatsink-BitaxeGT"
-				(at 14.732 -9.144 0)
+			(property "Footprint" "bitaxe:Heatsink-5hole-BitaxeGT"
+				(at 0.3048 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -274,7 +274,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 3.302 -5.842 0)
+				(at 0.3048 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -285,7 +285,51 @@
 				)
 			)
 			(property "Description" "Heatsink"
-				(at 6.858 -7.112 0)
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -317,7 +361,7 @@
 					)
 				)
 			)
-			(symbol "Heatsink_0_1"
+			(symbol "GTHeatsink-5hole_0_1"
 				(polyline
 					(pts
 						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
@@ -370,7 +414,7 @@
 					)
 				)
 			)
-			(symbol "Heatsink_1_1"
+			(symbol "GTHeatsink-5hole_1_1"
 				(pin input line
 					(at -2.54 -2.54 0)
 					(length 2.54)
@@ -582,7 +626,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -7.62 1.27 0)
 					(length 3.81)
 					(name "+V"
@@ -600,7 +644,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -7.62 -2.54 0)
 					(length 3.81)
 					(name "GND"
@@ -978,6 +1022,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 44.45) (xy 78.74 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c658190-d739-4cde-9d57-a580ad98d90d")
+	)
+	(wire
+		(pts
 			(xy 222.25 58.42) (xy 198.12 58.42)
 		)
 		(stroke
@@ -1148,16 +1202,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 44.45) (xy 78.74 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5621856-f001-45f8-bdf2-8f1148fa233e")
-	)
-	(wire
-		(pts
 			(xy 90.17 116.84) (xy 102.87 116.84)
 		)
 		(stroke
@@ -1278,16 +1322,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 107.95) (xy 102.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30fbc76-f550-42b1-bb07-de55b816e090")
-	)
-	(wire
-		(pts
 			(xy 128.27 96.52) (xy 132.08 96.52)
 		)
 		(stroke
@@ -1405,16 +1439,6 @@
 			(justify left bottom)
 		)
 		(uuid "1ef37afe-eff2-43d4-bcde-29cfb1e3bfa5")
-	)
-	(label "VDD"
-		(at 90.17 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2acd8b88-594a-4a10-a7b6-fafa101a4cd7")
 	)
 	(label "5V"
 		(at 90.17 52.07 0)
@@ -2042,12 +2066,12 @@
 		)
 	)
 	(symbol
-		(lib_id "bitaxe:Heatsink")
+		(lib_id "bitaxe:GTHeatsink-5hole")
 		(at 50.8 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2577,17 +2601,7 @@
 				(justify left)
 			)
 		)
-		(pin "VDD" input
-			(at 102.87 107.95 180)
-			(uuid "9e886989-f434-4a07-b821-e096966e3a23")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BAP_VIN" input
+		(pin "12V" input
 			(at 102.87 124.46 180)
 			(uuid "9a9f7aa2-e1f4-4396-9c65-3c2a7e02d25e")
 			(effects

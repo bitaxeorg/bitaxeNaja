@@ -554,7 +554,7 @@
 					)
 				)
 			)
-			(property "Value" "EMC2103-4-AP-TR"
+			(property "Value" "EMC2103-2"
 				(at -5.08 18.034 0)
 				(show_name no)
 				(do_not_autoplace no)

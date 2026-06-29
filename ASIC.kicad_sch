@@ -969,7 +969,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -17.78 17.78 0)
 					(length 2.54)
 					(name "VDD3_0"
@@ -987,7 +987,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -17.78 15.24 0)
 					(length 2.54)
 					(name "VDD2_0"
@@ -1005,7 +1005,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -17.78 12.7 0)
 					(length 2.54)
 					(name "VDD1_0"
@@ -1455,7 +1455,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 17.78 12.7 180)
 					(length 2.54)
 					(name "VDD1_1"
@@ -1473,7 +1473,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 17.78 15.24 180)
 					(length 2.54)
 					(name "VDD2_1"
@@ -1491,7 +1491,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 17.78 17.78 180)
 					(length 2.54)
 					(name "VDD3_1"
@@ -1689,7 +1689,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -17.78 17.78 0)
 					(length 2.54)
 					(name "VDD3_0"
@@ -1707,7 +1707,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -17.78 15.24 0)
 					(length 2.54)
 					(name "VDD2_0"
@@ -1725,7 +1725,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -17.78 12.7 0)
 					(length 2.54)
 					(name "VDD1_0"
@@ -2175,7 +2175,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 17.78 12.7 180)
 					(length 2.54)
 					(name "VDD1_1"
@@ -2193,7 +2193,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 17.78 15.24 180)
 					(length 2.54)
 					(name "VDD2_1"
@@ -2211,7 +2211,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 17.78 17.78 180)
 					(length 2.54)
 					(name "VDD3_1"
@@ -2828,6 +2828,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "0.8V LDO"
 		(exclude_from_sim no)
@@ -3168,6 +3283,12 @@
 		(uuid "6d2bce1d-1ae9-4b31-8920-d8940225e65b")
 	)
 	(junction
+		(at 199.39 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d646ff2-5140-4117-b898-de2a2ad9aedc")
+	)
+	(junction
 		(at 224.79 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3420,7 +3541,7 @@
 		(uuid "ea2c5275-42e4-4ca5-9175-608addc80e21")
 	)
 	(junction
-		(at 310.642 53.34)
+		(at 311.15 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ead03968-fb33-4fa6-9013-68c1558e8283")
@@ -3462,7 +3583,7 @@
 		(uuid "f91e2edc-8190-4b11-b180-1b4887dcd80c")
 	)
 	(junction
-		(at 330.962 53.34)
+		(at 331.47 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9a8b631-7b7a-45eb-bc7d-aa7f2349b5ae")
@@ -3755,7 +3876,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.962 53.34) (xy 330.962 62.23)
+			(xy 331.47 53.34) (xy 331.47 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4015,7 +4136,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 82.55) (xy 303.53 120.142)
+			(xy 303.53 82.55) (xy 303.53 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4025,7 +4146,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.312 53.34) (xy 330.962 53.34)
+			(xy 337.82 53.34) (xy 331.47 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4045,7 +4166,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.962 62.23) (xy 323.342 62.23)
+			(xy 331.47 62.23) (xy 323.85 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4085,7 +4206,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 85.09) (xy 300.99 120.142)
+			(xy 300.99 85.09) (xy 300.99 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4175,7 +4296,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 90.17) (xy 295.91 120.142)
+			(xy 295.91 90.17) (xy 295.91 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4195,7 +4316,7 @@
 	)
 	(wire
 		(pts
-			(xy 310.642 53.34) (xy 300.482 53.34)
+			(xy 311.15 53.34) (xy 300.99 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4455,7 +4576,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 87.63) (xy 298.45 120.142)
+			(xy 298.45 87.63) (xy 298.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4655,7 +4776,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 120.142) (xy 312.42 115.57)
+			(xy 312.42 120.65) (xy 312.42 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4945,7 +5066,7 @@
 	)
 	(wire
 		(pts
-			(xy 310.642 62.23) (xy 318.262 62.23)
+			(xy 311.15 62.23) (xy 318.77 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4975,7 +5096,7 @@
 	)
 	(wire
 		(pts
-			(xy 310.642 53.34) (xy 310.642 62.23)
+			(xy 311.15 53.34) (xy 311.15 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5195,7 +5316,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.422 53.34) (xy 330.962 53.34)
+			(xy 328.93 53.34) (xy 331.47 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5325,7 +5446,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.182 53.34) (xy 310.642 53.34)
+			(xy 313.69 53.34) (xy 311.15 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5365,7 +5486,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 80.01) (xy 306.07 120.142)
+			(xy 306.07 80.01) (xy 306.07 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6145,7 +6266,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 120.142) (xy 290.83 115.57)
+			(xy 290.83 120.65) (xy 290.83 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6225,7 +6346,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.182 50.8) (xy 294.64 50.8)
+			(xy 313.69 50.8) (xy 294.64 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6445,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.312 50.8) (xy 328.422 50.8)
+			(xy 337.82 50.8) (xy 328.93 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7204,7 +7325,7 @@
 		(uuid "4b516c10-f887-49fe-9e09-df39c44dbf67")
 	)
 	(label "1V2_1"
-		(at 337.312 50.8 180)
+		(at 337.82 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7414,7 +7535,7 @@
 		(uuid "a3731d64-56f5-4285-b764-b3f7375484a4")
 	)
 	(label "GND_1"
-		(at 337.312 53.34 180)
+		(at 337.82 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7574,7 +7695,7 @@
 		(uuid "dfb1f78e-9d48-41c3-abeb-014066f22692")
 	)
 	(label "1V2_1"
-		(at 300.482 53.34 0)
+		(at 300.99 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11828,6 +11949,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 199.39 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6131c0be-5932-4ab9-b087-6642d1027647")
+		(property "Reference" "#FLG01"
+			(at 199.39 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_1"
+			(at 199.39 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 199.39 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a8a5230-a7a0-4820-9748-dd67bda3468f")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:TLV73312PDBV")
 		(at 369.57 73.66 0)
 		(unit 1)
@@ -14718,7 +14917,7 @@
 	)
 	(symbol
 		(lib_id "bitaxe:oscillator")
-		(at 320.802 52.07 0)
+		(at 321.31 52.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14729,7 +14928,7 @@
 		(dnp no)
 		(uuid "ab5e2ee0-1a5b-4aae-ba1b-9292b2e5a6c1")
 		(property "Reference" "U15"
-			(at 320.802 46.482 0)
+			(at 321.31 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14739,7 +14938,7 @@
 			)
 		)
 		(property "Value" "25MHz"
-			(at 320.294 57.404 0)
+			(at 320.802 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14749,7 +14948,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:SMD3225-4P"
-			(at 322.072 53.34 0)
+			(at 322.58 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14760,7 +14959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.072 53.34 0)
+			(at 322.58 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14771,7 +14970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 320.802 52.07 0)
+			(at 321.31 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14782,7 +14981,7 @@
 			)
 		)
 		(property "DK" "5852-SX3M25.000E20F30THNTR-ND"
-			(at 320.802 52.07 0)
+			(at 321.31 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14793,7 +14992,7 @@
 			)
 		)
 		(property "LCSC" "C5137262"
-			(at 320.802 52.07 0)
+			(at 321.31 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14804,7 +15003,7 @@
 			)
 		)
 		(property "PARTNO" "SX3M25.000E20F30THN"
-			(at 320.802 52.07 0)
+			(at 321.31 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14815,7 +15014,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 320.802 52.07 0)
+			(at 321.31 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18048,7 +18247,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 320.802 62.23 90)
+		(at 321.31 62.23 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18059,7 +18258,7 @@
 		(dnp no)
 		(uuid "edb0fc95-64fc-4575-8a8b-6706e5e5adf1")
 		(property "Reference" "C99"
-			(at 318.77 65.278 90)
+			(at 319.278 65.278 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18070,7 +18269,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 318.008 67.056 90)
+			(at 318.516 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18081,7 +18280,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 320.802 62.23 0)
+			(at 321.31 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18092,7 +18291,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
-			(at 320.802 62.23 0)
+			(at 321.31 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18103,7 +18302,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 320.802 62.23 0)
+			(at 321.31 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18114,7 +18313,7 @@
 			)
 		)
 		(property "PARTNO" "KGM05AR71C104KH"
-			(at 320.802 62.23 0)
+			(at 321.31 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18125,7 +18324,7 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 320.802 62.23 0)
+			(at 321.31 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18136,7 +18335,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 320.802 62.23 90)
+			(at 321.31 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18590,8 +18789,8 @@
 		)
 	)
 	(sheet
-		(at 288.544 120.142)
-		(size 25.908 23.368)
+		(at 288.29 120.65)
+		(size 26.162 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18605,7 +18804,7 @@
 		)
 		(uuid "e54a6d2e-c74f-49ed-b74b-fa12427eb615")
 		(property "Sheetname" "Level Shifter"
-			(at 287.8324 143.51 90)
+			(at 287.5784 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18616,7 +18815,7 @@
 			)
 		)
 		(property "Sheetfile" "level_shifter.kicad_sch"
-			(at 315.214 145.288 90)
+			(at 314.96 145.796 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18647,7 +18846,7 @@
 			)
 		)
 		(pin "BO" input
-			(at 306.07 120.142 90)
+			(at 306.07 120.65 90)
 			(uuid "b3bdd737-35a1-46dd-bdbd-0184a466fd28")
 			(effects
 				(font
@@ -18667,7 +18866,7 @@
 			)
 		)
 		(pin "CO" input
-			(at 298.45 120.142 90)
+			(at 298.45 120.65 90)
 			(uuid "14b2ccec-a019-4e36-afa0-c29630659fa9")
 			(effects
 				(font
@@ -18677,7 +18876,7 @@
 			)
 		)
 		(pin "GND_HI" input
-			(at 312.42 120.142 90)
+			(at 312.42 120.65 90)
 			(uuid "eb6b7bed-de30-4bba-9b76-72d87e1528e2")
 			(effects
 				(font
@@ -18697,7 +18896,7 @@
 			)
 		)
 		(pin "NRSTO" input
-			(at 295.91 120.142 90)
+			(at 295.91 120.65 90)
 			(uuid "a99c7207-5c4d-435a-9e1b-1f6abc8a4705")
 			(effects
 				(font
@@ -18707,7 +18906,7 @@
 			)
 		)
 		(pin "RI" input
-			(at 300.99 120.142 90)
+			(at 300.99 120.65 90)
 			(uuid "0f8b7871-9154-4259-88a7-cbc2379766af")
 			(effects
 				(font
@@ -18727,7 +18926,7 @@
 			)
 		)
 		(pin "VDD_HI" input
-			(at 290.83 120.142 90)
+			(at 290.83 120.65 90)
 			(uuid "eef641f3-3556-461e-988a-4b0911572585")
 			(effects
 				(font
@@ -18747,7 +18946,7 @@
 			)
 		)
 		(pin "CLKO" input
-			(at 303.53 120.142 90)
+			(at 303.53 120.65 90)
 			(uuid "63659ef6-8376-4571-8f76-0cdf3e987a59")
 			(effects
 				(font

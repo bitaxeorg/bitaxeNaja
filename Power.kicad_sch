@@ -2250,7 +2250,7 @@
 					)
 				)
 			)
-			(property "Footprint" "bonanzaDisplay:SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BR"
+			(property "Footprint" "bitaxe:SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BR"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2283,7 +2283,7 @@
 					)
 				)
 			)
-			(property "ME" ""
+			(property "LCSC" "C3200405"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2294,8 +2294,8 @@
 					)
 				)
 			)
-			(property "LCSC" "C3200405"
-				(at 0.254 8.89 0)
+			(property "PARTNO" "TPS62933DRLR"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2305,8 +2305,41 @@
 					)
 				)
 			)
-			(property "PARTNO" "TPS62933DRLR"
-				(at -1.016 11.176 0)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DK" "296-TPS62933DRLRCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2472,6 +2505,121 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2643,6 +2791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41e7c094-eddb-4013-9e50-6ed248c290cc")
+	)
+	(junction
+		(at 237.49 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "433ea986-6e4d-426f-b91b-87b70e909715")
 	)
 	(junction
 		(at 234.95 95.25)
@@ -3147,6 +3301,16 @@
 			(type default)
 		)
 		(uuid "0b9c86e9-89a4-4856-825a-42e24d12a3b4")
+	)
+	(wire
+		(pts
+			(xy 237.49 134.62) (xy 245.11 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc13ef4-09bc-48a3-86b8-3b45ad30150f")
 	)
 	(wire
 		(pts
@@ -4850,7 +5014,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 134.62) (xy 245.11 134.62)
+			(xy 232.41 134.62) (xy 237.49 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10815,6 +10979,83 @@
 			(project "bitaxeNaja"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 237.49 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab530713-daca-4be2-9227-1e245fc3a599")
+		(property "Reference" "#FLG02"
+			(at 237.49 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 237.49 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 237.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd427bb1-de35-428e-ae65-3d5a1b7cb8dd")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
