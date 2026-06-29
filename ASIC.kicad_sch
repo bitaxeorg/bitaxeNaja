@@ -10764,7 +10764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "0.1uF"
 			(at 264.922 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10822,27 +10822,6 @@
 		(property "DK" ""
 			(at 262.89 43.18 90)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 262.89 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer " ""
-			(at 262.89 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12509,7 +12488,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "0.1uF"
 			(at 263.652 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12567,27 +12546,6 @@
 		(property "DK" ""
 			(at 261.62 152.4 90)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 261.62 152.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer " ""
-			(at 261.62 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
