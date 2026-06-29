@@ -53597,6 +53597,54 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 142.94 41.13 0)
+		(layer "F.SilkS")
+		(uuid "97efe79a-a454-48e9-88e8-d183ea5ea557")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3"
+		(at 142.94 43.59 0)
+		(layer "F.SilkS")
+		(uuid "7dfa9b99-3c5b-416e-9697-c577d37e1121")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCL"
+		(at 142.94 46.24 0)
+		(layer "F.SilkS")
+		(uuid "1a3f7630-dbeb-489e-90e1-10ff51d88116")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDA"
+		(at 142.94 48.89 0)
+		(layer "F.SilkS")
+		(uuid "2533b57d-30ef-4656-975f-1fed54bc9a49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "BOOT"
 		(at 109.35 40.16 0)
 		(layer "F.SilkS")
