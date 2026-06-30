@@ -688,18 +688,6 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
@@ -708,24 +696,6 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer ",
-          "name": "Manufacturer ",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
           "show": false
         }
       ],
@@ -785,7 +755,7 @@
         "uuid": "61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
       }
     ],
-    "used_designators": "#FLG1-2,L1,NT2,NT5-6,TP31,U7,U15,HS1-2,R39,R73,#PWR3,C2-6,C9,C13-14,C19-23,C47,C50,C99-102,C106,C110-111",
+    "used_designators": "#FLG1-2,L1,NT2,NT5-6,TP31,U7,U15,HS1-2,#PWR3,C2-6,C9,C13-14,C19-23,C47,C50,C99-102,C106,C110-111,R39,R73",
     "variants": []
   },
   "sheets": [
