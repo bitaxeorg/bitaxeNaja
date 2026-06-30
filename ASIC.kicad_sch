@@ -7,7 +7,7 @@
 	(title_block
 		(title "bitaxeNaja")
 		(date "2026-06-18")
-		(rev "1201x")
+		(rev "1201xx")
 		(company "bitaxeorg")
 		(comment 1 "OHL v2")
 	)
@@ -4416,6 +4416,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 191.77) (xy 271.78 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35204db7-4f48-4cec-bee2-786de77bce20")
+	)
+	(wire
+		(pts
 			(xy 176.53 224.79) (xy 176.53 231.14)
 		)
 		(stroke
@@ -5666,7 +5676,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 191.77) (xy 271.78 191.77)
+			(xy 214.63 191.77) (xy 224.79 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5833,6 +5843,16 @@
 			(type default)
 		)
 		(uuid "9db7ddcf-983b-4f6c-9f71-f03a9bb0fb03")
+	)
+	(wire
+		(pts
+			(xy 228.6 85.09) (xy 271.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1de5f2-5e67-421f-a297-89b702633b52")
 	)
 	(wire
 		(pts
@@ -6986,7 +7006,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 85.09) (xy 271.78 85.09)
+			(xy 214.63 85.09) (xy 220.98 85.09)
 		)
 		(stroke
 			(width 0)
@@ -12912,6 +12932,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 228.6 191.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "743b44fa-8131-4291-9b11-378eea2da904")
+		(property "Reference" "R74"
+			(at 224.028 190.754 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 232.664 190.754 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 228.854 190.754 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 228.6 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 228.6 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 228.6 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d9edb60-3e2c-4e4e-94a4-3ec802f1fdfa")
+		)
+		(pin "2"
+			(uuid "4786a6c5-cbd2-45b2-9624-21577abd9c4e")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 354.33 102.87 180)
 		(unit 1)
@@ -14947,7 +15068,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ab5e2ee0-1a5b-4aae-ba1b-9292b2e5a6c1")
 		(property "Reference" "U15"
 			(at 321.31 46.482 0)
@@ -15446,6 +15567,107 @@
 			(project "bitaxeNaja"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 224.79 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b236f77e-22c7-40c3-8582-d6fadbe467c6")
+		(property "Reference" "R76"
+			(at 220.218 84.074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 228.854 84.074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.044 84.074 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 224.79 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 224.79 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 224.79 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e32b145b-28aa-4d98-ba31-e70e33a59968")
+		)
+		(pin "2"
+			(uuid "6e31095d-1a94-4b03-a5b0-92112e5a3da2")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -18277,7 +18499,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "edb0fc95-64fc-4575-8a8b-6706e5e5adf1")
 		(property "Reference" "C99"
 			(at 319.278 65.278 90)

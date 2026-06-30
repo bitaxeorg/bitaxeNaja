@@ -7,7 +7,7 @@
 	(title_block
 		(title "bitaxeNaja")
 		(date "2026-06-18")
-		(rev "1201x")
+		(rev "1201xx")
 		(company "bitaxeorg")
 		(comment 1 "OHL v2")
 	)
@@ -1981,9 +1981,9 @@
 		)
 		(uuid "702910d8-50b6-4b22-932a-158231d5b543")
 	)
-	(text "clock domain passthrough. Ideally this works"
+	(text "clock domain passthrough."
 		(exclude_from_sim no)
-		(at 141.224 41.656 0)
+		(at 139.954 31.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2297,6 +2297,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 38.1) (xy 172.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be4d7cb-c2dd-4fb9-bf13-e8ee85d69740")
+	)
+	(wire
+		(pts
 			(xy 130.81 71.12) (xy 130.81 66.04)
 		)
 		(stroke
@@ -2447,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 38.1) (xy 137.16 38.1)
+			(xy 109.22 38.1) (xy 125.73 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2504,16 +2514,6 @@
 			(type default)
 		)
 		(uuid "82423400-9f28-442a-a078-a4ca48db54eb")
-	)
-	(wire
-		(pts
-			(xy 144.78 38.1) (xy 172.72 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894383ac-5dd3-4042-a164-28b7d94eb0a1")
 	)
 	(wire
 		(pts
@@ -2724,6 +2724,16 @@
 			(type default)
 		)
 		(uuid "e074004e-cf51-4722-b76d-a9581dfb95fd")
+	)
+	(wire
+		(pts
+			(xy 133.35 38.1) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e649cf83-ef74-4aec-8ed6-22b52650e38c")
 	)
 	(wire
 		(pts
@@ -4052,6 +4062,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 149.86 38.1 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6dcd5724-34c0-4b1c-a31f-dda4e34f5f23")
+		(property "Reference" "C101"
+			(at 147.574 35.052 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 147.574 41.148 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 149.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+			(at 149.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 149.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" ""
+			(at 149.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 149.86 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61bdd4ec-4c5e-4150-9da8-7cd0f6184aa7")
+		)
+		(pin "2"
+			(uuid "261dd3c0-845a-4238-805a-a3bc5fafe000")
+		)
+		(instances
+			(project "bitaxeNaja"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719/e54a6d2e-c74f-49ed-b74b-fa12427eb615"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 146.05 49.53 270)
 		(unit 1)
@@ -4964,18 +5089,17 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 140.97 38.1 90)
+		(at 129.54 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "931dc864-abe1-47c9-8baa-17b7e9fbe299")
 		(property "Reference" "R67"
-			(at 140.97 31.75 90)
+			(at 129.54 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4984,8 +5108,8 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 140.97 34.29 90)
+		(property "Value" "33"
+			(at 129.794 41.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4995,7 +5119,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 141.224 37.084 90)
+			(at 129.794 37.084 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5006,7 +5130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5017,7 +5141,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 140.97 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5027,8 +5151,8 @@
 				)
 			)
 		)
-		(property "PARTNO" "RC0402JR-070RL"
-			(at 140.97 38.1 90)
+		(property "PARTNO" ""
+			(at 129.54 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5039,7 +5163,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 140.97 38.1 90)
+			(at 129.54 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
